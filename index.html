@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sindhuja Pujyam | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="C:\Users\Umapujyam\OneDrive\Desktop\sindhuja photo.jpeg" alt="Profile Photo" class="profile-pic">
+
+    <h1>Sindhuja Pujyam</h1>
+    <p>Aspiring Web Developer | Computer Science Student</p>
+</header>
+
+<nav>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('contact')">Contact</button>
+</nav>
+
+<div class="container">
+
+    <!-- ABOUT -->
+    <div id="about" class="section active">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science student with interest in Web Development,
+            Software Engineering, and emerging technologies.<br>
+            My goal is to grow as a skilled sofware professional, contribute to innovative projects and make a positive impact through technology 
+        </p>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Java</li>
+            <li>C Programming</li>
+        </ul>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Movie Booking Website</h3>
+            <p>Built using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>Library Management System</h3>
+            <p>Designed a system for managing books and users.</p>
+        </div>
+    </div>
+
+    <!-- CONTACT (CONNECTED TO BACKEND) -->
+   <!-- CONTACT (CONNECTED TO BACKEND) -->
+<div id="contact" class="section contact">
+    <h2>Contact Me</h2>
+
+    <!-- CONTACT LINKS (TOP) -->
+    <div class="contact-details">
+
+        <p>
+            Email:
+            <a href="mailto:sindhuja@gmail.com">sindhuja@gmail.com</a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/yourusername" target="_blank">
+                https://github.com/yourusername
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
+                https://linkedin.com/in/yourusername
+            </a>
+        </p>
+
+    </div>
+
+    <!-- CONTACT FORM -->
+    <form id="contactForm">
+
+        <input type="text" id="name" placeholder="Your Name" required>
+        <br><br>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+        <br><br>
+
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <br><br>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</div>
+</div>
+
+<footer>
+    <p>© 2026 Sindhuja Pujyam | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
